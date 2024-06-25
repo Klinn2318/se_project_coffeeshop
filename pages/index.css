@@ -1,3 +1,14 @@
+body {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400; /* Make sure to be consistent with your usage */
+}
+
+h1 {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-weight: 400; /* Normal weight for Noto Serif */
+  font-style: italic; /* Italic for Noto Serif */
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
