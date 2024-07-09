@@ -42,6 +42,7 @@
   line-height: 30px;
   max-width: 683px;
   margin: 23px 0 0 80px;
+  z-index: 2;
 }
 
 .header__image {
@@ -57,14 +58,11 @@
   margin: auto 80px 40px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   color: #838383;
   z-index: 2;
 }
 
 .header__paragraph {
   margin: 0;
-}
-
-.header__paragraph_last {
-  margin: auto 0 0;
 }
