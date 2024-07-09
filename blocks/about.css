@@ -50,7 +50,6 @@
 
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
-  animation-direction: alternate;
 }
 
 @keyframes pulsate {
@@ -62,5 +61,6 @@
   }
   100% {
     transform: scale(1.08);
+    opacity: 0;
   }
 }
